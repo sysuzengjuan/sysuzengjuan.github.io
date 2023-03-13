@@ -1,0 +1,239 @@
+<html>
+
+<head>
+    <style>
+        body {
+            /*margin-left: 18%;*/
+            /*margin-right: 18%;*/
+        }
+
+        img {
+          background-color: green;
+          /*float: left;*/
+
+      }
+
+      h1 {
+          text-align: left;
+      }
+
+      p {
+          font-size: 20px;
+      }
+      .container{
+        background-color:white;
+        width:62%;
+        height:auto;
+        margin:auto;
+    }
+    .row{
+        /*width:auto;*/
+        height:auto;
+        display: flex;
+        /*background-color:white;*/
+    }
+    .info{
+        margin-left:20px;
+        margin-top:20px;
+        margin-right:20px;
+
+        /*background-color:#EEE;*/
+        height:auto;
+    }
+    .sysulogo{
+        background-color:green;
+        padding:12px 12px 12px 12px;
+    }
+    .sysubot{
+        background-color:green;
+    }
+    .avatar{
+        margin-top:20px;
+        margin-bottom:10px;
+        width: 201px;
+        flex:row;
+        /*background-color:#EEE;*/
+        height:auto;
+    }
+    .elem{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-left:10px;
+        margin-right:10px;
+        flex:row;
+        /*background-color:#EEE;*/
+        height:auto;
+    }
+
+</style>
+
+
+<title>万海 主页</title>
+<meta content="text/html; charset=unicode" http-equiv="Content-Type">
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="sysulogo">
+            <img src="image/logo.png">
+        </div>
+        <hr>
+        <div class="row">
+
+            <div class="elem">
+                [<a href="index.html">首页</a>]
+                [<a href="research.html">研究方向</a>]
+                [<a href="pub.html">著作论文</a>]
+                [<a href="project.html">科研项目</a>]
+                [<a href="teaching.html">讲授课程</a>]
+                [<a href="seminar.html">研讨班</a>]
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="elem">
+                <h2>研究方向</h2>
+                <ul>
+                    <li><p><a name="sg">场景图谱 (SG)</a></p>
+                    <div class="row">
+                        <div class="elem">
+                            <img width="400px" src="image/sg1.png">
+                        </div>
+                        <div class="elem">
+                            <p>
+                                场景图谱用结构化的信息描述一个场景。场景图谱可以表示为视觉三元组的集合，每条三元组由“头部实体”、“关系”和“尾部实体”三个元素构成，“头部实体”和“尾部实体”对应于图片上的一个包围盒，包围盒附有实体类型和实体属性，“关系”描述了“头部实体”和“尾部实体”之间的关系。场景图谱已经成为计算机视觉领域和人工智能实际应用时的重要资源，比如图像检索、基于场景图谱的描述语句相似性检测、图像视觉问答等。
+                            </p>
+                        </div>
+                    </div>
+                        研究论文：
+                        <ul>
+                            <li>
+                                Hai Wan, Yu-zhou Luo, Jianfeng Du, Jialing Ou, Baoyi Wang, Jeff Z. Pan: <a href="submit_paper/ijcai_2019#228.pdf">Scene Graph Refinement with Commonsense Knowledge</a>. Submitted to IJCAI 2019.</li>
+                            <li>
+                                Hai Wan, Leilai Li, Jianfeng Du, Jinrui Liang, Haichen Chen, Jeff Z. Pan: <a href="submit_paper/ijcai19-229.pdf">Understanding Social Relationship with Person-Pair Relations</a>. Submitted to IJCAI 2019.</li>
+                            <li>
+                                Hai Wan, Yonghao Luo, Bo Peng, Wei-Shi Zheng: <a href="pub/[IJCAI18] Representation Learning for Scene Graph Completion via Jointly Structural and Visual Embedding.pdf">Representation Learning for Scene Graph Completion via Jointly Structural and Visual Embedding</a>. IJCAI 2018: 949-956.</li>
+                        <li>Zhou Yin, Wei-Shi Zheng, Ancong Wu, Hong-Xing Yu, Hai Wan, Xiaowei Guo, Feiyue Huang, Jianhuang Lai: <a href="pub/[IJCAI18] Adversarial Attribute-Image Person Re-identification.pdf">Adversarial Attribute-Image Person Re-identification</a>. IJCAI 2018: 1100-1106.</li>
+                            <li>
+                                Jianfeng Du, Kunxun Qi, Hai Wan, Bo Peng, Shengbin Lu, Yuming Shen: <a href="pub/[JIST17] Enhancing Knowledge Graph Embedding from a Logical Perspective.pdf">Enhancing Knowledge Graph Embedding from a Logical Perspective</a>. JIST 2017: 232-247.</li>
+                        </ul><br/>
+                        相关数据集：
+                        <ul>
+                            <li><a href="visualgenome.org">VG数据集</a></li>
+                            <li><a href="https://visualqa.org/">VQA数据集</a></li>
+                            <li><a href="visualcommonsense.com">VRC数据集</a></li>
+                            <li><a href="http://web.stanford.edu/~yukez/visual7w/">visual7w数据集</a></li>
+                            <li><a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge">DAQUAR数据集</a></li>
+                            <li><a href="https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html">NYU-Depth V2数据集</a></li>
+                        </ul>
+                    </li>
+
+                    <br/>
+                    <hr>
+                    <li><p><a name="kr">知识的表示与推理 (KR)</a></p>
+                    <div class="row">
+                        <div class="elem">
+                            <img width="400px" src="image/kr1.png">
+                        </div>
+                        <div class="elem">
+                            <p>知识表示和推理是人工智能领域，致力于以计算机系统可用于解决复杂任务（例如诊断医学状况或以自然语言进行对话）的形式表示关于世界的信息。
+                            </p>
+                        </div>
+                    </div>
+                        研究论文：
+                    <ul>
+                        <li>Wanshan Zheng, Zibin Zheng, Hai Wan, Chuan Chen. CNDynamically Route Hierarchical Structure Representation to Attentive Capsule for Text Classification. IJCAI2019. Accepted.</li>
+                        <li>
+                            Xiao Huang, Biqing Fang, Hai Wan, Yongmei Liu: <a href="pub/[IJCAI17] A General Multi-agent Epistemic Planner Based on Higher-order Belief Change.pdf">A General Multi-agent Epistemic Planner Based on Higher-order Belief Change</a>. IJCAI 2017: 1093-1101.</li>
+                        <li>
+                            Zhanhao Xiao, Andreas Herzig, Laurent Perrussel, Hai Wan, Xiaoheng Su: <a href="pub/[IJCAI17] Hierarchical Task Network Planning with Task Insertion and State Constraints.pdf">Hierarchical Task Network Planning with Task Insertion and State Constraints</a>. IJCAI 2017: 4463-4469.</li>
+                        <li>
+                            Hai Wan, Heng Zhang, Peng Xiao, Haoran Huang, Yan Zhang: <a href="pub/[AAAI16] Query Answering with AAAI2016 Inconsistent Existential Rules under Stable Model Semantics.pdf">Query Answering with Inconsistent Existential Rules under Stable Model Semantics</a>. AAAI 2016: 1095-1101.</li>
+                        <li>
+                            Quan Yu, Hai Wan, Jiangtao Xu, Freddy Lécué, Liang Chang: <a href="pub/[ECAI16] Explanatory Diagnosis of an Ontology Stream via Reasoning About Actions.pdf">Explanatory Diagnosis of an Ontology Stream via Reasoning About Actions</a>. ECAI 2016: 1596-1597.</li>
+                        <li>
+                            Huaping Zhong, Jianwen Zhang, Zhen Wang, Hai Wan, Zheng Chen: <a href="pub/[EMNLP15] Aligning Knowledge and Text Embeddings by Entity Descriptions.pdf">Aligning Knowledge and Text Embeddings by Entity Descriptions</a>. EMNLP 2015: 267-272.</li>
+                    </ul>
+                    </li>
+
+                    <br/>
+                    <hr>
+                    <li><p><a name="asp">回答集编程 (ASP)</a></p>
+                    <div class="row">
+                        <div class="elem">
+                            <img width="400px" src="image/asp1.jpg">
+                        </div>
+                        <div class="elem">
+                            <p>回答集编程是语法上类似传统逻辑编程而语义上密切于非单调逻辑的一种声明式编程。在传统逻辑编程和回答集编程之间的主要区别是如何表示否定为失败。在传统逻辑编程中，否定为失败指示推导失败；在回答集编程中，它指示一个文字的一致性。
+                            </p>
+                        </div>
+                    </div>
+                        研究论文：
+                    <ul>
+                        <li>
+                            Jianmin Ji, Hai Wan, Kewen Wang, Zhe Wang, Chuhan Zhang, Jiangtao Xu: <a href="pub/[IJCAI16] Eliminating Disjunctions in Answer Set Programming by Restricted Unfolding.pdf">Eliminating Disjunctions in Answer Set Programming by Restricted Unfolding</a>. IJCAI 2016: 1130-1137.</li>
+                        <li>
+                            Jianmin Ji, Hai Wan, Ziwei Huo, Zhenfeng Yuan: <a href="pub/[AAAI15] Splitting a Logic Program Revisited.pdf">Splitting a Logic Program Revisited</a>. AAAI 2015: 1511-1517.</li>
+                        <li>
+                            Jianmin Ji, Hai Wan, Peng Xiao: <a href="pub/[AAAI15] On Elementary Loops and Proper Loops for Disjunctive Logic Programs.pdf">On Elementary Loops and Proper Loops for Disjunctive Logic Programs</a>. AAAI 2015: 1518-1524.</li>
+                        <li>
+                            Jianmin Ji, Hai Wan, Ziwei Huo, Zhenfeng Yuan: <a href="pub/[IJCAI15] Simplifying A Logic Program Using Its Consequences.pdf">Simplifying A Logic Program Using Its Consequences</a>. IJCAI 2015: 3069-3075.</li>
+                        <li>
+                            Jianmin Ji, Hai Wan, Peng Xiao, Ziwei Huo, Zhanhao Xiao: <a href="pub/[AAAI14] Elementary Loops Revisited.pdf">Elementary Loops Revisited</a>. AAAI 2014: 1063-1069.</li>
+                    </ul>
+                    </li>
+
+                    <br/>
+                    <hr>
+                    <li><p><a name="sat">可满足性问题 (SAT)</a></p>
+                    <div class="row">
+                        <div class="elem">
+                            <img width="400px" src="image/sat1.png">
+                        </div>
+                        <div class="elem">
+                            <p>可满足性（Satisfiability）是解决给定的布尔函数，是否存在一组变量赋值，使问题为可满足。布尔可满足性问题（Boolean satisfiability problem；SAT）属于判定性问题，也是第一个被证明属于NP完全的问题。此问题在计算机科学上许多领域的皆相当重要，包括计算机科学基础理论、算法、人工智能、硬件设计等等。
+                            </p>
+                        </div>
+                    </div>
+                        研究论文：
+                    <ul>
+                        <li>
+                            Weilin Luo, Hai Wan, Hongzhen Zhong, Ou Wei: <a href="submit_paper/233-paper.pdf">CoAPI: An Efficient Two-Phase Algorithm Using Core-Guided Over-Approximate Cover for Prime Compilation of Non-Clausal Formulae</a>. Submitted to IJCAI 2019.</li>
+                    </ul>
+                    </li>
+
+                    <br/>
+                    <hr>
+                    <li><p><a name="cop">组合优化问题 (COP)</a></p>
+                    <div class="row">
+                        <div class="elem">
+                            <img width="400px" src="image/cop1.png">
+                        </div>
+                        <div class="elem">
+                            <p>组合最优化，在应用数学和理论计算机科学的领域中，组合优化是在一个有限的对象集中找出最优对象的一类课题。在很多组合优化的问题中，穷举搜索／枚举法是不可行的。组合优化的问题的特征是可行解的集是离散或者可以简化到离散的，并且目标是找到最优解。常见的例子有旅行商问题和最小生成樹。二维的例子，比如服装厂做衣服，衣服分成很多块，这些块需要从布料上切下来。怎么切，剩下的废布料最少？三维的例子，如集装优化。
+                            </p>
+                        </div>
+                    </div>
+                        研究论文：
+                    <ul>
+                        <li>
+                            Peilin Chen, Hai Wan, Shaowei Cai, Weilin Luo, Biqing Fang, Jia Li: <a href="submit_paper/Combining Reinforcement Learning and Configuration Checking for Maximum k-plex Problem.pdf">Combining Reinforcement Learning and Configuration Checking for Maximum k-plex Problem</a>. Submitted to IJCAI 2019.</li>
+                        <li>
+                            Biqing Fang, Hai Wan, Shaowei Cai, Weilin Luo, Zejie Cai: <a href="submit_paper/An Incremental Evaluation Mechanism for the Critical Node Problem.pdf">An Incremental Evaluation Mechanism for the Critical Node Problem</a>. Submitted to IJCAI 2019.</li>
+                        <li>
+                            Hongzhen Zhong, Hai Wan, Shaowei Cai, Weilin Luo, Xinrui Gao: <a href="submit_paper/Using Unsatisfiable Cores to Estimate Maximum Power in CMOS Combinational.pdf">Using Unsatisfiable Cores to Estimate Maximum Power in CMOS Combinational Circuits</a>. Submitted to IJCAI 2019.</li>
+                    </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="sysubot">
+                    <p>
+                        <font color="white">Last Updated: Apr 2019</font>
+                    </p>
+                </div>
+            </div>
+        </body>
+
+        </html>
